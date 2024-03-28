@@ -1,12 +1,12 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 class Prpeek < Formula
-  desc "Show status of relevant pull requests live. - CLI"
+  desc "Show status of relevant GitHub pull requests live. - CLI"
   homepage "https://github.com/balfons/prpeek"
-  url "https://github.com/balfons/prpeek/releases/download/1.0.4/prpeek.tar.gz"
-  sha256 "1de6ae54166dbd3510c156b11eeab20fe85f069bfdf65252c5401ffb64ae3414"
+  url "https://github.com/balfons/prpeek/releases/download/2.0.0/prpeek.tar.gz"
+  sha256 "536673635341dd8110e2e63e861695d9867cfe437bfccb298f6de7d42d5d23e5"
   license "MIT"
-  version "1.0.4"
+  version "2.0.0"
 
   def install
     bin.install "prpeek"
