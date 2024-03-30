@@ -8,6 +8,8 @@ class Prpeek < Formula
   license "MIT"
   version "2.0.0"
 
+  depends_on "gh"
+
   def install
     bin.install "prpeek"
   end
